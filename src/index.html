@@ -13,9 +13,17 @@
 		<script defer type="module" src="/main.js"></script>
 		<script defer src="/scripts/index.js"></script>
 
-		<title>Vanilla Playground</title>
+		<title>Vanilla Tailwind Playground</title>
 	</head>
 	<body>
-		<p class="text-blue-500">This is a test</p>
+		<div class="container flex flex-col items-center justify-center h-screen text-center">
+			<p class="text-blue-500 text-7xl">Hello World</p>
+			<br />
+			<p class="text-lg text-gray-700">
+				This is a HTML / JS / Tailwind Playground, it comes with Stylelint & Eslint pre-configure.
+			</p>
+			<br />
+			<p class="text-red-600">Assumes Prettier is already configured.</p>
+		</div>
 	</body>
 </html>
